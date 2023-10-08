@@ -1,0 +1,41 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE task PUBLIC "-//OASIS//DTD DITA Task//EN" "task.dtd">
+<task id="task_ssy_22s_wyb">
+    <title>Characteristics of Concept and Reference Topics</title>
+    <taskbody>
+        <context>
+            <p></p>
+        </context>
+        <steps>
+            <step>
+                <cmd></cmd>
+                <choicetable frame="all" relcolwidth="1* 1*" id="choicetable_ysn_bfs_wyb">
+                    <chhead>
+                        <choptionhd>Concept</choptionhd>
+                        <chdeschd/>
+                    </chhead>
+                    <chrow>
+                        <choption/>
+                        <chdesc/>
+                    </chrow>
+                    <chrow>
+                        <choption/>
+                        <chdesc/>
+                    </chrow>
+                    <chrow>
+                        <choption>Reference</choption>
+                        <chdesc/>
+                    </chrow>
+                    <chrow>
+                        <choption/>
+                        <chdesc/>
+                    </chrow>
+                    <chrow>
+                        <choption/>
+                        <chdesc/>
+                    </chrow>
+                </choicetable>
+            </step>
+        </steps>
+    </taskbody>
+</task>

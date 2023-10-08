@@ -1,0 +1,30 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE concept PUBLIC "-//OASIS//DTD DITA Concept//EN" "concept.dtd">
+<concept id="introduction">
+    <title>Introduction</title>
+    <prolog>
+        <author type="creator">ggndp</author>
+        <critdates>
+            <created date="2023-10-01"/>
+            <!--ggndp-->
+            <revised modified="2023-10-05"/>
+        </critdates>
+    </prolog>
+    <conbody>
+        <p>This is an introductin to the DITA profiling/conditional text feature</p>
+        <p>You can profile content elements or map elements by adding one or more of the default
+            DITA profiling attributes (@product, @platform, @audience, @rev, @props, and
+            @otherprops).</p>
+        <p>Profiling conditions can both within topics and in maps. When set in a topic, they you to
+            suppress an element (such as paragraph), step in a procedure, item in a list, or even a
+            phrase within a sentence. <ul id="ul_by5_d25_yyb">
+                <li>When set in a map, they allow you to suppress an entire
+                    topic or group of topics.</li>
+                <li> When set in a map, they allow you to create a variety of publications from a
+                    single map by applying profiling conditions to the build.</li>
+            </ul></p>
+    </conbody>
+    <related-links>
+        <link href="creating_and_editing_profiling_attributes_in_dita.dita"/>
+    </related-links>
+</concept>

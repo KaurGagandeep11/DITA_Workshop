@@ -1,0 +1,27 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE map PUBLIC "-//OASIS//DTD DITA Map//EN" "map.dtd">
+<map>
+    <title>microsoft documentation</title>
+    <topicmeta>
+        <author type="creator">ggndp</author>
+        <critdates>
+            <created date="2023-10-07"/>
+            <!--ggndp-->
+            <revised modified="2023-10-07"/>
+        </critdates>
+    </topicmeta>
+    <keydef keys="microsoft365" href="https://learn.microsoft.com/en-gb/microsoft-365">
+        <topicmeta>
+            <keywords>
+                <keyword/>
+            </keywords>
+        </topicmeta>
+    </keydef>
+    <keydef keys="microsoftteams">
+        <topicmeta>
+            <keywords>
+                <keyword/>
+            </keywords>
+        </topicmeta>
+    </keydef>
+</map>

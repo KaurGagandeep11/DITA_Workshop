@@ -1,0 +1,24 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE concept PUBLIC "-//OASIS//DTD DITA Concept//EN" "concept.dtd">
+<concept id="writing_in_dita">
+    <title>Writing in DITA</title>
+    <shortdesc><b>Creating content in DITA</b></shortdesc>
+    <conbody>
+        <p>DITA map and topic documents are <xref href="https://en.wikipedia.org/wiki/XML"
+                format="html" scope="external">XML</xref> files. As with <xref
+                href="https://en.wikipedia.org/wiki/HTML" format="html" scope="external"
+            >HTML</xref>, any images, video files, or other files that must appear in the output are
+            inserted via reference. Any <xref href="https://en.wikipedia.org/wiki/XML_editor"
+                format="html" scope="external">XML editor</xref> or even <xref
+                href="https://en.wikipedia.org/wiki/Text_editor" format="html" scope="external">text
+                editor</xref> can be used to write DITA content, depending on the level of support
+            required while authoring. Aids to authoring featured in specialized editors include
+                <xref href="https://en.wikipedia.org/wiki/WYSIWYG" format="html" scope="external"
+                >WYSIWYG</xref> preview rendering, <xref
+                href="https://en.wikipedia.org/wiki/XML_validation" format="html" scope="external"
+                >validation</xref>, and integration with a DITA processor, like <xref
+                href="https://en.wikipedia.org/wiki/DITA-OT" format="html" scope="external"
+                >DITA-OT</xref> or <xref href="https://www.xmlmind.com/ditac/" format="html"
+                scope="external">ditac</xref>.</p>
+    </conbody>
+</concept>

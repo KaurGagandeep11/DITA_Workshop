@@ -1,0 +1,22 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE map PUBLIC "-//OASIS//DTD DITA Map//EN" "map.dtd">
+<map>
+    <title>Module 3</title>
+    <topicmeta>
+        <author type="contributor">ggndp</author>
+        <critdates>
+            <!--ggndp-->
+            <revised modified="2023-10-05"/>
+        </critdates>
+    </topicmeta>
+    <topichead navtitle="Syntax and Markup">
+        <topicref href="organization_of_dita_elements.dita"/>
+    </topichead>
+    <topichead navtitle="Element domains">
+        <topicref href="domain_elements.dita"/>
+    </topichead>
+    <topichead navtitle="Elements">
+        <topicref href="lists.dita"/>
+    </topichead>
+    <topicref href="Choice%20list.dita"/>
+</map>

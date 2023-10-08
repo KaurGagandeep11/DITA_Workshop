@@ -1,0 +1,77 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE concept PUBLIC "-//OASIS//DTD DITA Concept//EN" "concept.dtd">
+<concept id="how_to_identify_the_information_type">
+    <title>How to identify the Information Type</title>
+    <prolog>
+        <author type="contributor">ggndp</author>
+        <critdates>
+            <!--ggndp-->
+            <revised modified="2023-10-05"/>
+        </critdates>
+    </prolog>
+    <conbody>
+        <p>Concept, task and reference topics contain different types of content. Concept topics
+            contain explanations, task topics contain procedural steps, and reference topics contain
+            tabular look-up information.</p>
+        <p>An important skill of an author working in a DITA environment is typing information
+            correctly into information types.</p>
+        <p>Of the three base DITA information types:</p>
+        <p>Concept topics are used for overviews of tasks or overviews of reference information.
+            They tend to be short and simple.</p>
+        <p>Task topics contain procedural steps.</p>
+        <p>Reference topics detail properties and other reference (as opposed to narrative)
+            information, typically in tabular form.</p>
+        <p>In some types of documents, an instruction may be described with a set of concept, task
+            and reference topics. For example, the use of a car's alarm system may be covered
+            by:</p>
+        <p>
+            <ul id="ul_mgp_rcs_wyb">
+                <li>Alarm systems (concept)</li>
+                <li>Setting the alarm (task)</li>
+                <li>Alarm codes (reference)</li>
+            </ul>
+        </p>
+        <p>Such a set of topics would be associated using a reltable, so that the topics would be
+            linked or associated in the deliverable document. A typical procedure will require a
+            concept topic and a task topic, and may require a reference topic.</p>
+        <p>While task information is generally easy to identify, it can be difficult to distinguish
+            concept from reference information. <table id="table_t4z_nfy_zyb" colsep="1" rowsep="1"
+                frame="all">
+                <title>Characteristics of concept and reference topics</title>
+                <tgroup cols="3">
+                    <colspec colname="c1" colnum="1"/>
+                    <colspec colname="c2" colnum="2"/>
+                    <colspec colname="c3" colnum="3"/>
+                    <thead>
+                        <row>
+                            <entry/>
+                            <entry>Concept</entry>
+                            <entry>Reference</entry>
+                        </row>
+                    </thead>
+                    <tbody>
+                        <row rowsep="1">
+                            <entry><b>Purpose/Function</b></entry>
+                            <entry>Explanatory </entry>
+                            <entry>Fact </entry>
+                        </row>
+                        <row>
+                            <entry><b>Access Frequency</b></entry>
+                            <entry>A few times</entry>
+                            <entry>Repeatedly, when needed</entry>
+                        </row>
+                        <row>
+                            <entry><b>Book Context</b></entry>
+                            <entry>Front, Middle</entry>
+                            <entry>Back</entry>
+                        </row>
+                        <row>
+                            <entry><b>Content or Data</b></entry>
+                            <entry>Content</entry>
+                            <entry>Data</entry>
+                        </row>
+                    </tbody>
+                </tgroup>
+            </table></p>
+    </conbody>
+</concept>

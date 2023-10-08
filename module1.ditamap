@@ -1,0 +1,92 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE map PUBLIC "-//OASIS//DTD DITA Map//EN" "map.dtd">
+<map>
+    <title>Module1</title>
+    <topicmeta>
+        <author type="contributor">ggndp</author>
+        <critdates>
+            <!--ggndp-->
+            <revised modified="2023-10-01"/>
+        </critdates>
+    </topicmeta>
+    <topicgroup>
+        <topicmeta>
+            <navtitle>Introduction to DITA</navtitle>
+        </topicmeta>
+        <topicref href="introduction_to_dita.dita"/>
+        <topicgroup>
+            <topicmeta>
+                <navtitle>What is DITA?</navtitle>
+            </topicmeta>
+            <topicref href="what_is_dita.dita"/>
+        </topicgroup>
+        <topicgroup>
+            <topicmeta>
+                <navtitle>Business advantages of DITA?</navtitle>
+            </topicmeta>
+            <topicref href="business_advantages_of_dita.dita"/>
+        </topicgroup>
+        <topicgroup>
+            <topicmeta>
+                <navtitle>XML Basics </navtitle>
+            </topicmeta>
+            <topicref href="xml_basics.dita"/>
+        </topicgroup>
+        <topicgroup>
+            <topicmeta>
+                <navtitle>DITA Terminology</navtitle>
+            </topicmeta>
+            <topicref href="dita_terminology.dita"/>
+        </topicgroup>
+        <topicgroup>
+            <topicmeta>
+                <navtitle>DITA OT and Tools</navtitle>
+            </topicmeta>
+            <topicref href="dita_ot_and_tools.dita"/>
+        </topicgroup>
+        <topicgroup>
+            <topicmeta>
+                <navtitle>Content Organization in DITA</navtitle>
+            </topicmeta>
+        </topicgroup>
+        <topicref href="content_organization_in_dita.dita"/>
+        <topicgroup>
+            <topicmeta>
+                <navtitle>DITA Files and their Outputs </navtitle>
+            </topicmeta>
+        </topicgroup>
+        <topicref href="dita_files_and_their_outputs.dita"/>
+        <topicgroup>
+            <topicmeta>
+                <navtitle>Writing in DITA </navtitle>
+            </topicmeta>
+        </topicgroup>
+        <topicref href="writing_in_dita.dita"/>
+    </topicgroup>
+    <reltable>
+        <title>Reltable for module1</title>
+        <relheader>
+            <relcolspec type="concept"/>
+            <relcolspec type="task"/>
+            <relcolspec type="reference"/>
+        </relheader>
+        <relrow>
+            <relcell>
+                <topicref href="what_is_dita.dita">
+                    <topicref href="dita_terminology.dita"/>
+                </topicref>
+            </relcell>
+            <relcell/>
+            <relcell/>
+        </relrow>
+        <relrow>
+            <relcell>
+                <topicref href="writing_in_dita.dita">
+                    <topicref href="dita_files_and_their_outputs.dita"/>
+                </topicref>
+            </relcell>
+            <relcell/>
+            <relcell/>
+        </relrow>
+    </reltable>
+</map>

@@ -1,0 +1,26 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE concept PUBLIC "-//OASIS//DTD DITA Concept//EN" "concept.dtd">
+<concept id="what_is_dita">
+    <title>What is DITA?</title>
+    <shortdesc>The Darwin Information Typing Architecture (DITA) is an XML-based architecture for
+        authoring, producing, and delivering topic-oriented, information-typed content that can be
+        reused and single-sourced in a variety of ways. </shortdesc>
+    <prolog>
+        <author type="contributor">ggndp</author>
+        <critdates>
+            <!--ggndp-->
+            <revised modified="2023-09-30"/>
+        </critdates>
+    </prolog>
+    <conbody>
+        <p id="p_n4b_43n_yyb">DITA is designed for creating new document types and describing new
+            information domains based on existing types and domains. The process for creating new
+            types and domains is called specialization. Specialization enables the creation of
+            specific, targeted XML grammars that can still use tools and design rules that were
+            developed for more general types and domains; this is similar to how classes in an
+            object-oriented system can inherit the methods of ancestor classes.</p>
+        <p>Because DITA topics are conforming XML documents, they can be readily viewed, edited, and
+            validated using standard XML tools, although realizing the full potential of DITA
+            requires using DITA-aware tools.</p>
+    </conbody>
+</concept>

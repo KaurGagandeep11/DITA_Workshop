@@ -1,0 +1,23 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE concept PUBLIC "-//OASIS//DTD DITA Concept//EN" "concept.dtd">
+<concept id="twt_workshop">
+    <title>TechWriters Tribe <ph keyref="Version_Number"/>Workshop</title>
+    <shortdesc></shortdesc>
+    <prolog>
+        <author type="creator">ggndp</author>
+        <critdates>
+            <created date="2023-10-07"/>
+        </critdates>
+    </prolog>
+    <conbody>
+        <p>This topic provides following TechWriters Tribe workshop details:</p>
+        <ul id="ul_r2k_tyl_1zb">
+            <li>TechWriters Tribe <ph keyref="Version_Number"/>Introduction</li>
+            <li>TechWriters Tribe session 1</li>
+            <li>TechWriters Tribe session 2</li>
+            <li>TechWriters Tribe session 3</li>
+        </ul>
+        <note id="note_qwc_wyl_1zb">Attending all TechWriters Tribe <ph keyref="Version_Number"
+            />sessions is mandatory.</note>
+    </conbody>
+</concept>

@@ -1,0 +1,35 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE task PUBLIC "-//OASIS//DTD DITA Task//EN" "task.dtd">
+<task id="task_n1k_v2d_xyb">
+    <title>Choice List</title>
+    <prolog>
+        <author type="contributor">ggndp</author>
+        <critdates>
+            <!--ggndp-->
+            <revised modified="2023-10-05"/>
+        </critdates>
+    </prolog>
+    <taskbody>
+        <context><p>A choice list is a special purpose list used within step elements in task topics
+                to indicate that the user has to choose one of several actions to complete the
+                task.</p><p>When writing task topics, the choice list structure can be used to
+                describe alternative step choices. </p>As shown in given example</context>
+        <steps id="steps_sbl_pkf_yyb">
+            <step>
+                <cmd>Choose the code accoording to your display preferences</cmd>
+                <choices id="choices_trn_dj4_wyb">
+                    <choice>
+                        <codeblock id="codeblock_mht_skf_yyb" outputclass="language-xml">/*To display date on screen*/
+XYZ
+ABC</codeblock>
+                    </choice>
+                    <choice>
+                        <codeblock outputclass="language-xml" id="codeblock_cdp_zkf_yyb">/*To display time on screen*/
+PQR
+WYZ</codeblock>
+                    </choice>
+                </choices>
+            </step>
+        </steps>
+    </taskbody>
+</task>

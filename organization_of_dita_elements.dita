@@ -1,0 +1,58 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE reference PUBLIC "-//OASIS//DTD DITA Reference//EN" "reference.dtd">
+<reference id="organization_of_dita_elements">
+    <title>Organization of DITA elements</title>
+    <shortdesc>Elements in DITA are grouped together into a number of categories for organisational
+        and comprehension purposes.</shortdesc>
+    <prolog>
+        <author type="contributor">ggndp</author>
+        <critdates>
+            <!--ggndp-->
+            <revised modified="2023-09-30"/>
+        </critdates>
+    </prolog>
+    <refbody>
+        <section id="section_rjc_xhn_yyb"/>
+        <section id="section_ukn_nkv_wyb">
+            <title>Block and Phrase Elements</title>
+            <p>Most <tm tmtype="reg">DITA</tm> topic semantic elements can be categorised as block or
+                phrase elements. </p>
+            <p conref="what_is_dita.dita#what_is_dita/p_n4b_43n_yyb"/>
+            <p>Block elements are paragraph-like elements that are typically displayed in the output
+                with space above and below the content, taking up the full width of the available
+                space. Phrase (or inline) elements are applied to words or phrases within a block
+                element, and typically do not force new lines in the output.</p>
+            <p> Block elements can exist within other block elements, but not within phrase
+                elements. </p>
+            <p>Phrase elements can exist within block elements and within other phrase elements.
+                Examples of block elements include:<ul id="ul_slk_rkv_wyb">
+                    <li>p (paragraph) </li>
+                </ul><ul id="ul_dxc_skv_wyb">
+                    <li>codeblock</li>
+                </ul><ul id="ul_jkq_skv_wyb">
+                    <li> steps msgblock title</li>
+                </ul> Examples of phrase elements include:<ul id="ul_hhr_tkv_wyb">
+                    <li> term</li>
+                </ul><ul id="ul_qdn_5kv_wyb">
+                    <li> codeph</li>
+                </ul><ul id="ul_qjd_vkv_wyb">
+                    <li> uicontrol</li>
+                </ul><ul id="ul_hk4_vkv_wyb">
+                    <li>msgph</li>
+                </ul><ul id="ul_bph_xkv_wyb">
+                    <li> tm (trademark)</li>
+                </ul></p>
+        </section>
+        <section id="section_ccp_gmv_wyb">
+            <title>Map Elements</title>
+            <p>The map elements include: <ul id="ul_eyf_lmv_wyb">
+                    <li>map</li>
+                    <li> topicref</li>
+                    <li> topicmeta</li>
+                    <li> topicgroup </li>
+                    <li>topichead </li>
+                    <li>reltable</li>
+                </ul></p>
+        </section>
+    </refbody>
+</reference>

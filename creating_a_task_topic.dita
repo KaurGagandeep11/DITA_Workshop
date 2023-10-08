@@ -1,0 +1,72 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE task PUBLIC "-//OASIS//DTD DITA Task//EN" "task.dtd">
+<task id="creating_a_task_topic">
+    <title>Creating a Task Topic</title>
+    <prolog>
+        <author type="contributor">ggndp</author>
+        <critdates>
+            <!--ggndp-->
+            <revised modified="2023-10-05"/>
+        </critdates>
+    </prolog>
+    <taskbody>
+        <prereq id="prereq_tnj_gb4_wyb">Before creating a task topic, you must install Oxygen XML
+            Author. You can download a trial version of XML Author at <xref
+                href="https://www.oxygenxml.com/xml_author/download_oxygenxml_author.html"
+                format="html" scope="external">Download</xref>
+        </prereq>
+        <context>
+            <p> Once you complete the instructions, you should have task Topic created</p>
+        </context>
+        <steps>
+            <step>
+                <cmd>Select <menucascade>
+                        <uicontrol>File</uicontrol>
+                        <uicontrol>New</uicontrol>
+                    </menucascade>. Alternatively, click the <image placement="inline"
+                        href="New%20icon.png" id="image_lv4_lm4_wyb"
+                    /><uicontrol>New</uicontrol>icon. </cmd>
+                <stepresult>The <uicontrol>New</uicontrol> dialog appears. </stepresult>
+            </step>
+            <step>
+                <cmd>Choose a file template. </cmd>
+                <choices id="choices_trn_dj4_wyb">
+                    <choice>Enter <userinput>task</userinput> in the <uicontrol>Type filter
+                            text</uicontrol> text box.</choice>
+                    <choice>Expand the <uicontrol>Framework template -DITA-Topics</uicontrol>tree
+                        and select<uicontrol>Task</uicontrol></choice>
+                </choices>
+            </step>
+            <step>
+                <cmd>Provide a meaningful title<uicontrol>Title</uicontrol>text box.</cmd>
+                <info>
+                    <note id="note_esd_bk4_wyb" type="attention">Do not insert special characters
+                        and exceed the 255 characters limit while providing the title. </note>
+                    <fig id="fig_h5d_zl4_wyb">
+                        <title>Create a New Template dialog</title>
+                        <image placement="break" href="DITA%20dialog.png" align="center"
+                            id="image_i5d_zl4_wyb">
+                            <alt>Create a New Template dialog</alt>
+                        </image>
+                    </fig>
+                </info>
+            </step>
+            <step>
+                <cmd>Click <uicontrol>Create</uicontrol>.</cmd>
+            </step>
+        </steps>
+        <result id="result_i44_zd4_wyb">You have successfully created a Task topic.</result>
+        <example id="example_rrd_c24_wyb">
+            <title>Sample Task body (XML code)</title>
+            <codeblock id="codeblock_lvn_g24_wyb" outputclass="language-xml">&lt;task id="sqlj">
+&lt;title>Creating an SQLJ file&lt;/title>
+&lt;taskbody>
+&lt;context>Once you have set up SQLJ, you need to create a new SQLJ file.&lt;/context>
+&lt;/taskbody>
+&lt;/task>
+</codeblock>
+        </example>
+        <postreq id="postreq_rxq_1g4_wyb">Add the task topic to DITA Map. For more info, see<xref
+                href="xml_basics.dita" format="dita"/></postreq>
+    </taskbody>
+</task>

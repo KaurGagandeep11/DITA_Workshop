@@ -1,0 +1,93 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE topic PUBLIC "-//OASIS//DTD DITA Topic//EN" "topic.dtd">
+<topic id="lists">
+    <title>Lists</title>
+    <body>
+        <p>Types of Lists<ul id="ul_khb_wvv_wyb">
+                <li>Simple Lists</li>
+                <li>Bulleted (Unorderd)</li>
+                <li>Numbered</li>
+                <li>Definition</li>
+                <li>Choice</li>
+                <li>Parameter</li>
+            </ul></p>
+    </body>
+    <topic id="topic_d3n_1wv_wyb">
+        <title>Simple Lists</title>
+        <body>
+            <p>Simple lists are mostly used inside a table<sl id="sl_xqc_kwv_wyb">
+                    <sli>Apple</sli>
+                    <sli>Banana</sli>
+                    <sli>Orange</sli>
+                    <sli>Papaya</sli>
+                </sl></p>
+        </body>
+        <topic id="topic_qvb_4wv_wyb">
+            <title>Bulleted Lists</title>
+            <body>
+                <ul id="ul_nz3_pwv_wyb">
+                    <li>Apple<ul id="ul_tqk_rwv_wyb">
+                            <li>Green Apple</li>
+                            <li>Red Apple</li>
+                        </ul></li>
+                    <li>Banana</li>
+                    <li>Carrot</li>
+                </ul>
+            </body>
+        </topic>
+    </topic>
+    <topic id="topic_yny_vwv_wyb">
+        <title>Ordered Lists</title>
+        <body>
+            <p>Numbered List<ol id="ol_hdr_xwv_wyb">
+                    <li>Apple<ol id="ol_q5l_zwv_wyb">
+                            <li>Green Apple</li>
+                            <li>Red Apple</li>
+                        </ol></li>
+                    <li>Banana</li>
+                    <li>Papaya</li>
+                </ol></p>
+        </body>
+    </topic>
+    <topic id="topic_bvb_3xv_wyb">
+        <title>Definition Lists</title>
+        <body>
+            <p>Definition Lists</p>
+            <dl id="dl_ldq_kxv_wyb">
+                <dlentry>
+                    <dt><image placement="inline" href="New%20icon.png" id="image_otz_mxv_wyb"
+                        /></dt>
+                    <dd>Click to create a New file templatee</dd>
+                </dlentry>
+                <dlentry>
+                    <dt><image placement="inline" href="Search%20icon.png" id="image_ybs_wgx_wyb"
+                        /></dt>
+                    <dd>Search icon</dd>
+                </dlentry>
+            </dl>
+        </body>
+    </topic>
+    <topic id="topic_vht_xxv_wyb">
+        <title>Parameter Lists</title>
+        <body>
+            <p>Parameter
+                Lists<codeblock id="codeblock_zlt_jhx_wyb">calHelp(hFilename, contentId)</codeblock></p>
+            <p>Where<parml id="parml_nc1_5hx_wyb">
+                    <plentry>
+                        <pt>hFilename</pt>
+                        <pd>is relative path to file</pd>
+                    </plentry>
+                    <plentry>
+                        <pt>contentId</pt>
+                        <pd>the ID of the topic to display.</pd>
+                    </plentry>
+                </parml></p>
+        </body>
+        <topic id="topic_x3l_ljx_wyb">
+            <title>Choice List</title>
+            <body>
+                <p/>
+            </body>
+        </topic>
+    </topic>
+</topic>

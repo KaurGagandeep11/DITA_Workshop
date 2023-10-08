@@ -1,0 +1,16 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE concept PUBLIC "-//OASIS//DTD DITA Concept//EN" "concept.dtd">
+<concept id="choice_list">
+    <title>Choice List</title>
+    <shortdesc></shortdesc>
+    <conbody>
+        <p>
+            <codeblock id="codeblock_ozb_ygf_yyb">
+/* a long sample program */
+Do forever
+  Say "Hello, World"
+End
+</codeblock>
+        </p>
+    </conbody>
+</concept>

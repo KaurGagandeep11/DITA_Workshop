@@ -1,0 +1,22 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE map PUBLIC "-//OASIS//DTD DITA Map//EN" "map.dtd">
+<map>
+    <title>Module 6</title>
+    <topicmeta>
+        <author type="creator">ggndp</author>
+        <critdates>
+            <created date="2023-10-07"/>
+        </critdates>
+    </topicmeta>
+    <topicref href="twt_workshop.dita"/>
+    <topicgroup>
+        <topicmeta>Keys</topicmeta>
+        <keydef keys="Version_Number">
+            <topicmeta>
+                <keywords>
+                    <keyword>v1.0</keyword>
+                </keywords>
+            </topicmeta>
+        </keydef>
+    </topicgroup>
+</map>

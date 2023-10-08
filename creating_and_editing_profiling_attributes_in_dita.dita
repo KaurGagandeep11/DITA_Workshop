@@ -1,0 +1,51 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE task PUBLIC "-//OASIS//DTD DITA Task//EN" "task.dtd">
+<task id="creating_and_editing_profiling_attributes_in_dita">
+    <title>Creating and Editing Profiling Attributes in DITA</title>
+    <prolog>
+        <author type="contributor">ggndp</author>
+        <critdates>
+            <!--ggndp-->
+            <revised modified="2023-10-02"/>
+        </critdates>
+    </prolog>
+    <taskbody>
+        <context>
+            <p>To create or edit profiling attributes for filtering DITA content, follow these
+                steps:</p>
+        </context>
+        <steps>
+            <step>
+                <cmd>Select <uicontrol>Options>Preference</uicontrol>.</cmd>
+            </step>
+            <step>
+                <cmd>Preferences dialog box will open.</cmd>
+            </step>
+            <step>
+                <cmd>Go to<menucascade>
+                        <uicontrol>Editor</uicontrol>
+                        <uicontrol> Edit Modes</uicontrol>
+                        <uicontrol>Author</uicontrol>
+                        <uicontrol>Profiling/Conditional Text</uicontrol>
+                        <uicontrol>Attributes and Conditional Tests</uicontrol>
+                    </menucascade></cmd>
+            </step>
+            <step>
+                <cmd>To add new attributes and values, click the <b>New</b> button at the bottom of
+                    the <b>Profiling Attributes</b> table. To customize existing attributes and
+                    their values, select an attribute and click the <b>Edit</b> button. </cmd>
+                <stepresult>
+                    <p>In either case, this opens a <b>Profiling Attribute</b> configuration dialog
+                        box where you can define attributes that exist in your schema<fig>
+                            <title>Profiling Attribute Dialog Box</title>
+                            <image placement="break" href="Profiling%20attribute.png" width="350"
+                                height="350" align="center"/>
+                        </fig></p>
+                </stepresult>
+            </step>
+            <step>
+                <cmd>Select and click Edit to change theValue and Description of Attribute .</cmd>
+            </step>
+        </steps>
+    </taskbody>
+</task>

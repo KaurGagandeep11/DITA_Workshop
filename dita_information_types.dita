@@ -1,0 +1,29 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE concept PUBLIC "-//OASIS//DTD DITA Concept//EN" "concept.dtd">
+<concept id="dita_information_types">
+    <title>DITA Information types</title>
+    <conbody>
+        <p>A fundamental principle of DITA is information typing, which categorises information
+            according to the nature of the content. The three base DITA information types are <ul
+                id="ul_jm3_k1s_wyb">
+                <li>Concept</li>
+            </ul><ul id="ul_g3l_l1s_wyb">
+                <li>Task</li>
+            </ul><ul id="ul_m22_m1s_wyb">
+                <li>Reference</li>
+            </ul>
+        </p>
+        <p>The aim of all sorts of written communication is to transmit a message. The purpose, the
+            audience and the delivery method determine the best approach.</p>
+        <p>DITA categorises key business information by communication purpose, or information type.
+            There are three base DITA information types: <ul id="ul_qvz_41s_wyb">
+                <li>Concept</li>
+            </ul><ul id="ul_rvz_41s_wyb">
+                <li>Task</li>
+            </ul><ul id="ul_svz_41s_wyb">
+                <li>Reference</li>
+            </ul></p>
+        <p>The concept, task, and reference base types are sometimes called <b>core information
+                types </b>, as they are considered to be universally relevant.</p>
+    </conbody>
+</concept>

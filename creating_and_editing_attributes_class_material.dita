@@ -1,0 +1,42 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE task PUBLIC "-//OASIS//DTD DITA Task//EN" "task.dtd">
+<task id="creating_and_editing_attributes_class_material">
+    <title>creating and editing attributes_class material</title>
+    <shortdesc></shortdesc>
+    <prolog>
+        <author type="creator">ggndp</author>
+        <critdates>
+            <created date="2023-10-02"/>
+        </critdates>
+    </prolog>
+    <taskbody>
+        <context>
+            <p></p>
+        </context>
+        <steps>
+            <step>
+                <cmd></cmd>
+            </step>
+            <step>
+                <cmd><ph platform="windows">Select <menucascade>
+                            <uicontrol>Preferences</uicontrol>
+                        </menucascade></ph>.<ph platform="mac">Right click in the <uicontrol>Editor
+                        </uicontrol>view and select<uicontrol>Options</uicontrol>from the contextual
+                        menu.</ph></cmd>
+            </step>
+            <step>
+                <cmd><ph platform="windows">Navigate to <uicontrol>Preferences</uicontrol> dialog
+                        and go to </ph><ph platform="mac"><menucascade>
+                            <uicontrol>Editor </uicontrol>
+                            <uicontrol>Edit Modes</uicontrol>
+                            <uicontrol>Author</uicontrol>
+                            <uicontrol>Profiling/Conditional Text</uicontrol>
+                            <uicontrol>Atrributes and Condition Sets</uicontrol>
+                        </menucascade>.</ph></cmd>
+            </step>
+            <step>
+                <cmd/>
+            </step>
+        </steps>
+    </taskbody>
+</task>

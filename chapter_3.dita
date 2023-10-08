@@ -1,0 +1,15 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE concept PUBLIC "-//OASIS//DTD DITA Concept//EN" "concept.dtd">
+<concept id="chapter_3">
+    <title>chapter 3</title>
+    <prolog>
+        <author type="contributor">ggndp</author>
+        <critdates>
+            <!--ggndp-->
+            <revised modified="2023-09-30"/>
+        </critdates>
+    </prolog>
+    <conbody>
+        <p>This is the chapter 3 of book</p>
+    </conbody>
+</concept>

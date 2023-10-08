@@ -1,0 +1,25 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE concept PUBLIC "-//OASIS//DTD DITA Concept//EN" "concept.dtd">
+<concept id="xml_basics">
+    <title>XML basics</title>
+    <shortdesc></shortdesc>
+    <conbody>
+        <p>XML is a W3C-recommended general-purpose markup language that supports a wide variety of
+            applications, and is extensible. XML is a simplified subset of Standard Generalized
+            Markup Language (SGML). DITA is a "dialect" of XML.</p>
+        <p>The following figure shows a simple, annotated XML file.<fig id="fig_tnn_zyv_vyb">
+                <title>XML structure</title>
+                <image href="file:/C:/Users/ggndp/OneDrive/Desktop/xml.png" id="image_unn_zyv_vyb"/>
+                <p>The following figure shows the XML object model for the simple XML file.<fig
+                        id="fig_xhj_2zv_vyb">
+                        <title>xml model</title>
+                        <image href="file:/C:/Users/ggndp/OneDrive/Desktop/xml_object_model.png"
+                            id="image_yhj_2zv_vyb"/>
+                    </fig></p>
+                <p>The following figure shows a simplified tree structure model for a typical DITA
+                        project.<image
+                        href="file:/C:/Users/ggndp/OneDrive/Desktop/tree_structure.png"
+                        id="image_rhn_hzv_vyb"/></p>
+            </fig></p>
+    </conbody>
+</concept>
